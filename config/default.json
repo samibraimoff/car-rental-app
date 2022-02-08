@@ -1,0 +1,4 @@
+{
+  "PORT": 3030,
+  "MongoURI": "mongodb+srv://admin:adminLion@cluster0.uljug.mongodb.net/carrentaldb?retryWrites=true&w=majority"
+}

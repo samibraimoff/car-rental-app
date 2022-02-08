@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: azure;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.box-shadow1 {
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  color: crimson;
+}
+
+p {
+  margin: 0.3rem;
+  text-align: left;
+  padding: 0;
+}
+
+.header {
+  padding: 1.2rem;
+}
+
+.header .ant-btn {
+  box-shadow: none !important;
+  background-color: white !important;
+  color: orangered !important;
+  border: 1px solid orangered !important;
+  padding: 0.2rem 0.7rem;
+}
+
+.content {
+  min-height: 90vh;
+}
+
+.car-image {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.car_image_2 {
+  height: 20rem;
+  border-radius: 0.5rem;
+  width: auto;
+}
+
+.btn-orange {
+  box-shadow: none !important;
+  background-color: white !important;
+  color: orangered !important;
+  border: 1px solid orangered !important;
+  padding: 0.2rem 0.7rem;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+}
+
+.login {
+  background-color: black;
+  min-height: 100vh;
+}
+
+.login label,
+.login h1 {
+  color: white !important;
+}
+
+.login-form {
+  background-color: #1f1f1f;
+}
+
+.login-form input {
+  background-color: #333333 !important;
+  border: none;
+  color: white;
+}
+
+.login a {
+  color: white;
+}
